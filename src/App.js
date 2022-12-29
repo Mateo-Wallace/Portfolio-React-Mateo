@@ -34,7 +34,7 @@ function App() {
     <Router>
       <ThemeProvider theme={theme}>
         <Header />
-        <div>
+        <div style={{marginTop: "70px"}}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="*" element={<NotFound />} />
