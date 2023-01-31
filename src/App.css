@@ -1,7 +1,21 @@
 .bg-cream {
-    background-color: #e7e7db;
-    border-bottom: 4px solid #9d0a0e;
-    color: #333;
-    position: sticky;
-    top: 0;
+  background-color: #e7e7db;
+  border-bottom: 4px solid #9d0a0e;
+  color: #333;
+  position: sticky;
+  top: 0;
+}
+
+.bg-brown {
+  background-color: #decdbb;
+}
+
+.max-w {
+  max-width: 1540px;
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+.text-brown {
+  color: #6d5b47;
 }

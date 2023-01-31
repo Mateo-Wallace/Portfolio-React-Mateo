@@ -6,9 +6,7 @@ function NotFound() {
   return (
     <div>
       <div>
-        <h1>
-          No match for <code>{location.pathname}</code>
-        </h1>
+        No match for <code>{location.pathname}</code>
       </div>
     </div>
   );
