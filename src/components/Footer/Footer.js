@@ -1,23 +1,16 @@
 import React from "react";
-import Typography from "@mui/material/Typography";
+import "./Footer.css";
+import { Fade } from "react-reveal";
+import { greeting } from "../../portfolio.js";
 
-function Copyright() {
+export default function Footer(props) {
   return (
-    <Typography variant="body2" color="text.secondary white" align="center">
-      {"Copyright © Mateo Wallace "}
-      {new Date().getFullYear()}
-      {"."}
-    </Typography>
+    <div className="footer-div">
+      <Fade>
+        <p className="footer-text" style={{ color: props.theme.secondaryText }}>
+          Made with <span role="img" aria-label="Heart Emoji">❤️</span> by {greeting.title2}
+        </p>
+      </Fade>
+    </div>
   );
 }
-
-const Footer = () => {
-  return (
-    <footer>
-      Footer
-      <Copyright />
-    </footer>
-  );
-};
-
-export default Footer;

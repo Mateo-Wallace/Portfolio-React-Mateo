@@ -1,32 +1,33 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-// Import Pages
-import Home from "./pages/Home";
-import NotFound from "./pages/NotFound";
-
-// Import Components
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-
+import React, { useState, useEffect } from "react";
 import "./App.css";
+import Main from "./containers/Main";
+import { ThemeProvider } from "styled-components";
+import { themes } from "./theme";
+import { GlobalStyles } from "./global";
+import { settings } from "./portfolio";
+import ReactGA from "react-ga";
 
 function App() {
+  useEffect(() => {
+    if (settings.googleTrackingID) {
+      ReactGA.initialize(settings.googleTrackingID, {
+        testMode: process.env.NODE_ENV === "test",
+      });
+      ReactGA.pageview(window.location.pathname + window.location.search);
+    }
+  }, []);
 
+  const [theme, setTheme] = useState(localStorage.getItem("theme") || "dark");
 
   return (
-    <Router>
-
-        <Header />
-        <div class="max-w">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-          <Footer />
+    <ThemeProvider theme={themes[theme]}>
+      <div>
+        <GlobalStyles />
+        <div>
+            <Main theme={themes[theme]} setTheme={setTheme} />
         </div>
-
-    </Router>
+      </div>
+    </ThemeProvider>
   );
 }
 
