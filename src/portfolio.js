@@ -3,17 +3,14 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: false, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
 };
 
 //Home Page
 const greeting = {
   title: "Hello 👋.",
-  title2: "Harikrushn",
+  title2: "Mateo",
   logo_name: "harry.k()",
-  nickname: "harry / picleric",
-  full_name: "Harikrushn Kanani",
+  full_name: "Mateo Wallace",
   subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
   resumeLink:
     "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",

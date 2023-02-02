@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import "./Header.css";
+import mwLogo from "../../assests/images/MW-Logo-No-BG.png";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
+// import { greeting } from "../../portfolio.js";
+import { settings } from "../../portfolio.js";
 import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
 import { style } from "glamor";
@@ -68,8 +70,15 @@ function Header(props) {
         <header className="header">
           <NavLink to={link} tag={Link} className="logo">
             <span style={{ color: theme.text }}></span>
-            <span className="logo-name" style={{ color: theme.text }}>
+            {/* <span className="logo-name" style={{ color: theme.text }}>
               {greeting.logo_name}
+            </span> */}
+            <span>
+              <img
+                src={mwLogo}
+                style={{ height: "80px" }}
+                alt="Red logo for Mateo Wallace, looks like an MW with two dots."
+              />
             </span>
             <span style={{ color: theme.text }}></span>
           </NavLink>
