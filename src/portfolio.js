@@ -2,15 +2,16 @@
 
 // Website related settings
 const settings = {
-  isSplash: 1, // true 1, false 0: loading screen on first visit
-  themeToggle: 1, //true 1, false 0: allow user to change theme in header
+  isSplash: 1, // boolean: loading screen on first visit
+  themeToggle: 0, // boolean: allow user to change theme in header
+  showProfilePhoto: 1, // boolean: determines if profile or graphic is shown
 };
 
 //Home Page
 const greeting = {
   profilePhoto: "mateo-ruana.jpg",
   title: "Hello World 👋!",
-  footer: "Copyright © Mateo Wallace ", //footer + currentYear + "."
+  footer: "Copyright © Mateo Wallace ", // footer + currentYear + "."
   // logo_name: "Mateo-Wallace",
   full_name: "Mateo Wallace",
   subTitle: "Full Stack Developer, Instructor, Tutor. Always learning.",

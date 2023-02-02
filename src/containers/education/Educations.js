@@ -18,7 +18,7 @@ function Educations(props) {
       </div>
       <div className="educations-body-div">
         {degrees.degrees.map((degree) => {
-          return <DegreeCard degree={degree} theme={theme} />;
+          return <DegreeCard degree={degree} theme={theme} key={degree.title} />;
         })}
       </div>
     </div>

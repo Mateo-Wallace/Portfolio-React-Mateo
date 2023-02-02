@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Project.css";
-import ProjectCard from "../../components/ProjectCard/";
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
 export default function Projects() {
   const [repo, _] = useState([]);

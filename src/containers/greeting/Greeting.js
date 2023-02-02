@@ -1,10 +1,10 @@
 import React from "react";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { greeting } from "../../portfolio";
+import { greeting, settings } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
-// import FeelingProud from "./FeelingProud";
+import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
 
 export default function Greeting(props) {
@@ -50,12 +50,15 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            {/* <FeelingProud theme={theme} /> */}
-            <img
+            {settings.showProfilePhoto ? (
+              <img
                 className="profile-pic"
                 src={require(`../../assests/images/${greeting.profilePhoto}`)}
                 alt=""
               />
+            ) : (
+              <FeelingProud theme={theme} />
+            )}
           </div>
         </div>
       </div>
