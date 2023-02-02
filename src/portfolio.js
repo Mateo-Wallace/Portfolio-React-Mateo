@@ -8,13 +8,12 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello 👋.",
-  title2: "Mateo",
-  logo_name: "harry.k()",
+  footer: "Copyright © Mateo Wallace ", //footer + currentYear + "."
+  // logo_name: "Mateo-Wallace",
   full_name: "Mateo Wallace",
   subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
   resumeLink:
     "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
-  mail: "mailto:hkanani191@gmail.com",
 };
 
 const socialMediaLinks = {

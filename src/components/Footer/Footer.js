@@ -8,7 +8,7 @@ export default function Footer(props) {
     <div className="footer-div">
       <Fade>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          Made with <span role="img" aria-label="Heart Emoji">❤️</span> by {greeting.title2}
+          {greeting.footer} {new Date().getFullYear()}.
         </p>
       </Fade>
     </div>
