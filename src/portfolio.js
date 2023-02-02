@@ -2,16 +2,18 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to true if you want to use the splash screen.
+  isSplash: 1, // true 1, false 0: loading screen on first visit
+  themeToggle: 1, //true 1, false 0: allow user to change theme in header
 };
 
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
+  profilePhoto: "mateo-ruana.jpg",
+  title: "Hello World 👋!",
   footer: "Copyright © Mateo Wallace ", //footer + currentYear + "."
   // logo_name: "Mateo-Wallace",
   full_name: "Mateo Wallace",
-  subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
+  subTitle: "Full Stack Developer, Instructor, Tutor. Always learning.",
   resumeLink:
     "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
 };
@@ -542,7 +544,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "harikrushn.jpg",
+    profile_image_path: "mateo-ruana.jpg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },

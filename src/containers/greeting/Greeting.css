@@ -35,6 +35,11 @@
   font-family: "Google Sans Bold";
 }
 
+.profile-pic {
+  box-shadow: 0 5px 15px #353535;
+  border-radius: 4px;
+}
+
 .greeting-nickname {
   font-size: 30px;
   line-height: 0px;
