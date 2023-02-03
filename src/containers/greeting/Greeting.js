@@ -54,7 +54,7 @@ export default function Greeting(props) {
               <img
                 className="profile-pic"
                 src={require(`../../assests/images/${greeting.profilePhoto}`)}
-                alt=""
+                alt="profile of a very handsome mateo wallace"
               />
             ) : (
               <FeelingProud theme={theme} />

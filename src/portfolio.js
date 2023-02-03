@@ -19,6 +19,15 @@ const greeting = {
     "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
 };
 
+// Error 404, Not Found
+const errorPageInfo = {
+  titleHighlight: "404",
+  title: "Not Found",
+  subTitle:
+    "Sorry about that. It seems like you've made it to a secret page. I guess I should leave a little goodie for you while you're here! Did you know I've platinumed every single Dark Souls game? Pretty impressive right. Yeah, I know.",
+  image: 0, //for graphic make 0, for image make myImage.png
+};
+
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/harikanani",
@@ -896,6 +905,7 @@ const projects = {
 export {
   settings,
   greeting,
+  errorPageInfo,
   socialMediaLinks,
   skills,
   degrees,

@@ -1,21 +1,11 @@
 import React from "react";
 import "./Error404.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { greeting } from "../../portfolio";
+import { errorPageInfo } from "../../portfolio";
 import { Fade } from "react-reveal";
-import { useHistory } from "react-router-dom";
-import { style } from "glamor";
+import FeelingProud from "./FeelingProud";
 
 export default function Error404(props) {
   const theme = props.theme;
-  const history = useHistory();
-
-  const styles = style({
-    backgroundColor: `${theme.accentBright}`,
-    ":hover": {
-      boxShadow: `0 5px 15px ${theme.accentBright}`,
-    },
-  });
 
   return (
     <Fade bottom duration={2000} distance="40px">
@@ -23,37 +13,31 @@ export default function Error404(props) {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1 className="greeting-text">{greeting.title}</h1>
+              <h1 className="greeting-text">
+                {" "}
+                <span style={{ color: theme.accentColor }}>
+                  {errorPageInfo.titleHighlight}{" "}
+                </span>
+                {errorPageInfo.title}
+              </h1>
               <p
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                <span>I'm </span>
-                <span style={{ color: theme.accentColor }}>
-                  {greeting.full_name}.{" "}
-                </span>
-                {greeting.subTitle}
+                {errorPageInfo.subTitle}
               </p>
-              <SocialMedia />
-              <div className="portfolio-repo-btn-div">
-                <button
-                  {...styles}
-                  className="button"
-                  onClick={() => {
-                    history.push("/contact");
-                  }}
-                >
-                  Contact Me
-                </button>
-              </div>
             </div>
           </div>
           <div className="greeting-image-div">
+            {errorPageInfo.image ? (
               <img
                 className="profile-pic"
-                src={require(`../../assests/images/${greeting.profilePhoto}`)}
+                src={require(`../../assests/images/${errorPageInfo.image}`)}
                 alt=""
               />
+            ) : (
+              <FeelingProud theme={theme} />
+            )}
           </div>
         </div>
       </div>
