@@ -3,7 +3,7 @@
 // Website related settings
 const settings = {
   isSplash: 1, // boolean: loading screen on first visit
-  themeToggle: 0, // boolean: allow user to change theme in header
+  themeToggle: 1, // boolean: allow user to change theme in header
   showProfilePhoto: 1, // boolean: determines if profile or graphic is shown
 };
 
