@@ -30,13 +30,12 @@ const errorPageInfo = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/harikanani",
-  linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
-  gmail: "hkanani191@gmail.com",
-  gitlab: "https://gitlab.com/harikanani",
-  facebook: "https://www.facebook.com/harikrishan.kanani/",
-  twitter: "https://twitter.com/Harikrushn9",
-  instagram: "https://www.instagram.com/hari_kanani_/",
+  github: "https://github.com/Mateo-Wallace",
+  linkedin: "https://www.linkedin.com/in/mateo-wallace/",
+  gmail: "mateo.t.wallace@gmail.com",
+  gitlab: "",
+  twitter: "https://twitter.com/Magic_Man_Mateo",
+  instagram: "https://www.instagram.com/mateo_wallace/",
 };
 
 const skills = {
