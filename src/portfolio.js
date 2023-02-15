@@ -328,6 +328,122 @@ const contactPageData = {
 const projects = {
   data: [
     {
+      name: "Blog Boy",
+      url: "https://github.com/Mateo-Wallace/M14-Tech-Blog",
+      deployedSite: "https://tranquil-cove-06789.herokuapp.com/",
+      description:
+        "A social media website where users can create an account and make posts tied to their account that others can comment on.",
+      languages: [
+        {
+          name: "Handlebars",
+          iconifyClass: "vscode-icons:file-type-handlebars",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "logos-nodejs"
+        },
+        {
+          name: "Express",
+          iconifyClass: "skill-icons:expressjs-dark"
+        },
+        {
+          name: "MySQL",
+          iconifyClass: "logos-mysql"
+        },
+      ],
+    },
+    {
+      name: "Note Taker",
+      url: "https://github.com/Mateo-Wallace/M11-Note-Taker",
+      deployedSite: "https://desolate-fjord-67880.herokuapp.com/",
+      description:
+        "Allows a user to create notes, read created notes, update existing notes, and delete notes.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "logos-nodejs"
+        },
+        {
+          name: "Express",
+          iconifyClass: "skill-icons:expressjs-dark"
+        },
+      ],
+    },
+    {
+      name: "Steamy Scoops",
+      url: "https://mateo-wallace.github.io/P1-Steamy-Scoops/",
+      deployedSite: "https://github.com/Mateo-Wallace/P1-Steamy-Scoops",
+      description:
+        "A news site where a user can search a video game and be presented with Steam news and Youtube news.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Tailwind",
+          iconifyClass: "logos-tailwindcss-icon",
+        },
+        {
+          name: "jQuery",
+          iconifyClass: "skill-icons:jquery",
+        },
+      ],
+    },
+    {
+      name: "Weather Boy",
+      url: "https://github.com/Mateo-Wallace/M6-Weather-Dashboard",
+      deployedSite: "https://mateo-wallace.github.io/M6-Weather-Dashboard/",
+      description:
+        "Weather app that allows the user to type in a city and see the weather for the next 5 days. Makes use of API in order to get weather data.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "Bootstrap",
+          iconifyClass: "logos-bootstrap",
+        },
+      ],
+    },
+    {
       name: "CSS Cheat Sheet",
       url: "https://github.com/Mateo-Wallace/M2-CSS-Cheatsheet",
       deployedSite: "https://mateo-wallace.github.io/M2-CSS-Cheatsheet/",
@@ -335,12 +451,12 @@ const projects = {
         "One of my first projects I ever built. It uses advanced CSS in order to make a study guide esque site for CSS notes.",
       languages: [
         {
-          name: "CSS3",
-          iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
           name: "HTML5",
           iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
         },
       ],
     },
