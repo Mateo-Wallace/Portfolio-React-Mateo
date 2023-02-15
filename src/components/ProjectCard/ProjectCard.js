@@ -5,17 +5,11 @@ import { Fade } from "react-reveal";
 import { style } from "glamor";
 
 export default function ProjectCard({ repo, theme }) {
-  function openRepoinNewTab(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
-
   const styles = style({
     color: "rgb(88, 96, 105)",
     backgroundColor: "rgb(255, 255, 255)",
     boxShadow: "rgba(0, 0, 0, 0.2) 0px 10px 30px -15px",
     padding: "2rem",
-    cursor: "pointer",
     borderRadius: "5px",
     height: "100%",
     transition: "all 0.2s ease-in-out",
@@ -29,8 +23,7 @@ export default function ProjectCard({ repo, theme }) {
       <Fade bottom duration={2000} distance="40px">
         <div
           {...styles}
-          key={repo.id}
-          onClick={() => openRepoinNewTab(repo.url)}
+          key={repo.name}
           style={{ backgroundColor: theme.projectCard }}
         >
           <div className="repo-name-div">
@@ -38,6 +31,26 @@ export default function ProjectCard({ repo, theme }) {
               {repo.name}
             </p>
           </div>
+          <p
+            className="experience-card-company"
+            style={{ color: theme.secondaryText }}
+          >
+            <a href={repo.url} target="_blank" rel="noopener noreferrer">
+              Repo
+            </a>
+            {repo.deployedSite ? (
+              <a
+                href={repo.deployedSite}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ marginLeft: "10px" }}
+              >
+                Deployed Site
+              </a>
+            ) : (
+              ""
+            )}
+          </p>
           <p className="repo-description" style={{ color: theme.text }}>
             {repo.description}
           </p>

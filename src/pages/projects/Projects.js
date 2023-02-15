@@ -7,6 +7,7 @@ import { projectsHeader, projects } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 import { style } from "glamor";
+import { socialMediaLinks } from "../../portfolio";
 
 function Projects(props) {
   const theme = props.theme;
@@ -55,7 +56,9 @@ function Projects(props) {
       <a
         {...styles}
         className="general-btn"
-        href="https://github.com/harikanani"
+        href={socialMediaLinks.github}
+        target="_blank"
+        rel="noopener noreferrer"
       >
         More Projects (Github)
       </a>
