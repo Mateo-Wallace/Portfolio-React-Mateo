@@ -205,8 +205,10 @@ const majorEducation = {
       descriptions: [
         "⚡ A three month intensive bootcamp course of 240 contact hours.",
         "⚡ Learned to work on multiple group projects integrating Git workflow.",
-        "⚡ Gained the skill to become a MERN stack developer, creating various deployed websites with databases.",      ],
-      website_link: "https://badgr.com/public/assertions/HRjfkmdFSa6HZDNgWgYoew",
+        "⚡ Gained the skill to become a MERN stack developer, creating various deployed websites with databases.",
+      ],
+      website_link:
+        "https://badgr.com/public/assertions/HRjfkmdFSa6HZDNgWgYoew",
     },
   ],
 };
@@ -248,53 +250,42 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "Currently working as a Teaching Assistant and Tutor. Actively looking for remote work in the form of internships and job opportunities. Constantly working on personal projects.",
   header_image_path: "experience.svg",
   sections: [
     {
       title: "Work Experience",
       experiences: [
         {
-          title: "Node.js Backend Developer",
-          company: "Valora Infotech",
-          company_url: "http://valorainfotech.com/",
-          logo_path: "valora.jpg",
-          duration: "Nov 2021 - Present",
-          location: "Surat, Gujarat",
-          description: `Working on Mob-rule Application and Admin Panel Backend. I have worked on Socket.io,
-          Payment Gateway Integration and Microservice Architecture.
-          `,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
+          title: "Full Stack Web Developer - Teaching Assistant",
+          company: "edX Boot Camps, LLC",
+          company_url: "https://www.edx.org/boot-camps",
+          logo_path: "edx-bootcamps-logo.jpg",
+          duration: "Feb 2023 - Present",
+          location: "Remote",
+          description: `Instructing the next generation of Web Developers in MERN stack skills. Incorporating grading, code review, and error handling into the workflow.`,
+          color: "#117888",
         },
         {
-          title: "Node.js Backend Developer (Intern)",
-          company: "Valora Infotech",
-          company_url: "http://valorainfotech.com/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Mar 2021",
-          location: "Surat, Gujarat",
-          description: `Train, manage and provide guidance to junior software development staff.
-          Work closely with the Project Manager and Team Leads on change request functions.
-          Develops new and maintains existing applications.
-          Increased productivity and problem-solving technics by 20%.
-          We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-          `,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
+          title: "Web Development & Math Tutor",
+          company: "Freelance",
+          company_url: "https://www.edx.org/boot-camps",
+          logo_path: "mateo-logo.png",
+          duration: "June 2015 - Present",
+          location: "Remote",
+          description: `Tutoring and teaching since high school in a variety of subjects. Preparing students for college & workforce level scenarios.`,
+          color: "#e3405f",
         },
         {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
-          company_url: "http://nightowls.company/",
-          logo_path: "nightowls.jpg",
-          duration: "Sep 2020 - Oct 2020",
-          location: "Work From Home",
-          description: `Work closely with the Client and Team on change request functions.
-          We Primarily used LAMP Stack. 40% of my work was doing backend development, 30% of my work was designing database schemas, and 30% of my work was on maintain hosting and user traffics on the website.
-          `,
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#ee3c26",
+          title: "Director of Operations",
+          company: "US Postal & Printing",
+          company_url:
+            "https://www.yelp.com/biz/us-postal-and-printing-west-palm-beach",
+          logo_path: "uspp-logo.png",
+          duration: "May 2018 - Dec 2022",
+          location: "West Palm Beach, FL",
+          description: `Running a physical store. Managing a team of proficient individuals to satisfy customer needs. Utilizing and managing databases of customers, addresses, and packages. Graphic design for clients of all event types.`,
+          color: "#3453a5",
         },
       ],
     },
@@ -302,92 +293,15 @@ const experience = {
       title: "Volunteerships",
       experiences: [
         {
-          title: "Community Lead",
-          company: "Bauddhik-Geeks",
-          company_url: "https://bauddhikgeeks.tech/",
-          logo_path: "bauddhikgeeks.png",
-          duration: "Sep 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Help Tech-Geeks so they get exposure to the technical world and enlighten their skills. Hence, the programming club highlight all the skills of the individual members and help them develop and groom their skills in a meaningful way. Help community members to learn and grow.",
-          color: "#FBBD18",
-        },
-        {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-          color: "#4285F4",
-        },
-        // {
-        //   title: "Campus Hustler",
-        //   company: "Skillenza",
-        //   company_url: "https://skillenza.com/",
-        //   logo_path: "skillenza.png",
-        //   duration: "Feb 2021 - Present",
-        //   location: "Work from Home",
-        //   description:
-        //     "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-        //   color: "#196acf",
-        // },
-        {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "Postman Student Expert",
-          company: "Postman",
-          company_url: "https://www.postman.com/",
-          logo_path: "postman.png",
-          duration: "Feb 2020 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
           title: "GitHub Student Developer",
           company: "GitHub",
           company_url: "https://github.com/",
           logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
+          duration: "Nov 2022 - Present",
+          location: "Remote",
           description:
             "Contribute to Open Source Community and Open Source Project.",
           color: "#040f26",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
         },
       ],
     },
@@ -406,7 +320,6 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "mateo-ruana.jpg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
