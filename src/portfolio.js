@@ -269,7 +269,7 @@ const experience = {
         {
           title: "Web Development & Math Tutor",
           company: "Freelance",
-          company_url: "https://www.edx.org/boot-camps",
+          company_url: "https://mateo-wallace.github.io/",
           logo_path: "mateo-logo.png",
           duration: "June 2015 - Present",
           location: "Remote",

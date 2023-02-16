@@ -36,7 +36,7 @@ While building this project I learned to:
 
 ## Deployed Site
 
-To see the deployed site go to [NEED TO FILL IN]()
+To see the deployed site go to [mateo-wallace.github.io](https://mateo-wallace.github.io/)
 
 ![example of what the deployed portfolio looks like](./src/assests/images/deployed.png)
 
@@ -73,6 +73,6 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 
 Mateo Wallace - [GitHub](https://github.com/Mateo-Wallace) - [Email](mailto:mateo.t.wallace@gmail.com) - [LinkedIn](https://www.linkedin.com/in/mateo-wallace/)
 
-Project Link: [NEED TO UPDATE](https://github.com/Mateo-Wallace/MP2-Discord-DumBot-V2)
+Project Link: [mateo-wallace.github.io](https://mateo-wallace.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
