@@ -1,3 +1,18 @@
+.card {
+  border-radius: 0.5rem;
+  padding-bottom: 1rem;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  border-radius: "5px 5px 0px 0px";
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-height: max(10rem, 10vh);
+  mix-blend-mode: overlay;
+}
+
 .experience-card-company {
   font-family: "Google Sans Regular";
   margin: 0;
@@ -97,7 +112,7 @@
   text-align: left;
   display: -webkit-box;
   font-family: "Google Sans Regular";
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
 }
 

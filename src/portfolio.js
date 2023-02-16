@@ -328,6 +328,41 @@ const contactPageData = {
 const projects = {
   data: [
     {
+      name: "ShoCase",
+      url: "https://github.com/Bfunk54/ShoCase",
+      deployedSite: "https://shocase.herokuapp.com/",
+      image: "edx-bootcamps-logo.jpg",
+      alt_name: "Deployed site for ShoCase",
+      description:
+        "A social media website where users create playlists of Anime reccomendations. Other users can like and comment on existing playlists. It has a personal profile page and a simple search bar.",
+      languages: [
+        {
+          name: "Handlebars",
+          iconifyClass: "vscode-icons:file-type-handlebars",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "logos-nodejs"
+        },
+        {
+          name: "Express",
+          iconifyClass: "skill-icons:expressjs-dark"
+        },
+        {
+          name: "MySQL",
+          iconifyClass: "logos-mysql"
+        },
+      ],
+    },
+    {
       name: "Blog Boy",
       url: "https://github.com/Mateo-Wallace/M14-Tech-Blog",
       deployedSite: "https://tranquil-cove-06789.herokuapp.com/",
