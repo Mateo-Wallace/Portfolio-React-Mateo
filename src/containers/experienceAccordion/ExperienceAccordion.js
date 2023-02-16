@@ -8,7 +8,10 @@ function ExperienceAccordion(props) {
   const theme = props.theme;
 
   return (
-    <div className="experience-accord">
+    <div
+      className="experience-accord"
+      style={{ backgroundColor: theme.name === "dark" ? "#1d1d1d" : "#eeeeee" }}
+    >
       <ThemeProvider theme={theme.name === "light" ? LightTheme : DarkTheme}>
         <Accordion onChange={({ expanded }) => console.log(expanded)}>
           {props.sections.map((section) => {
@@ -20,7 +23,11 @@ function ExperienceAccordion(props) {
               >
                 {section["experiences"].map((experience) => {
                   return (
-                    <ExperienceCard experience={experience} theme={theme} key={experience["title"]} />
+                    <ExperienceCard
+                      experience={experience}
+                      theme={theme}
+                      key={experience["title"]}
+                    />
                   );
                 })}
               </Panel>
