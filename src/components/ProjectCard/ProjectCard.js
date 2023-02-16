@@ -27,7 +27,7 @@ export default function ProjectCard({ repo, theme }) {
             backgroundColor: theme.projectCard,
             backgroundImage: `linear-gradient(#6e1c2b, ${theme.projectCard} max(9.5rem, 15vh))`,
           }}
-          className="card"
+          className="project-card"
         >
           {repo.image ? (
             <a href={repo.url} target="_blank" rel="noopener noreferrer">

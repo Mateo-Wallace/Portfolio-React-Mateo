@@ -328,6 +328,90 @@ const contactPageData = {
 const projects = {
   data: [
     {
+      name: "Discord DumBot",
+      url: "https://github.com/Mateo-Wallace/MP2-Discord-DumBot-V2",
+      image: "dumbot.png",
+      alt_name: "Deployed site for dumbot",
+      description:
+        "Open source Discord Bot. Allows users to roll dice and play music with various utility commands.",
+      languages: [
+        {
+          name: "DiscordJS",
+          iconifyClass: "logos-discord-icon",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "vscode-icons:file-type-node",
+        },
+        {
+          name: "FFmpeg",
+          iconifyClass: "logos-ffmpeg-icon",
+        },
+      ],
+    },
+    {
+      name: "US Postal & Printing",
+      url: "https://github.com/Mateo-Wallace/US-Postal-Printing",
+      deployedSite: "https://us-postal-printing.herokuapp.com/",
+      image: "us-postal.png",
+      alt_name: "Deployed site for us postal printing",
+      description:
+        "MERN Stack example site for a postal company. Allows users to track packages, make orders, email the store, and save all of that information to their profile for future reference.",
+      languages: [
+        {
+          name: "MongoDB",
+          iconifyClass: "logos-mongodb-icon",
+        },
+        {
+          name: "Express",
+          iconifyClass: "skill-icons:expressjs-dark",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "vscode-icons:file-type-node",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "GraphQL",
+          iconifyClass: "logos-graphql",
+        },
+      ],
+    },
+    {
+      name: "Google Books Search",
+      url: "https://github.com/Mateo-Wallace/M21-Book-Search-Engine",
+      deployedSite: "https://m21-book-search-engine.herokuapp.com/",
+      image: "book-search.png",
+      alt_name: "Deployed site for Google Books Search",
+      description:
+        "MERN Stack search engine that allows user to create an account, search for books, and save books to a database.",
+      languages: [
+        {
+          name: "MongoDB",
+          iconifyClass: "logos-mongodb-icon",
+        },
+        {
+          name: "Express",
+          iconifyClass: "skill-icons:expressjs-dark",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "vscode-icons:file-type-node",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "GraphQL",
+          iconifyClass: "logos-graphql",
+        },
+      ],
+    },
+    {
       name: "ShoCase",
       url: "https://github.com/Bfunk54/ShoCase",
       deployedSite: "https://shocase.herokuapp.com/",
@@ -337,28 +421,24 @@ const projects = {
         "A social media website where users create playlists of Anime reccomendations. Other users can like and comment on existing playlists. It has a personal profile page and a simple search bar.",
       languages: [
         {
+          name: "MySQL",
+          iconifyClass: "logos-mysql",
+        },
+        {
+          name: "Express",
+          iconifyClass: "skill-icons:expressjs-dark",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "vscode-icons:file-type-node",
+        },
+        {
           name: "Handlebars",
           iconifyClass: "vscode-icons:file-type-handlebars",
         },
         {
           name: "CSS3",
           iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs"
-        },
-        {
-          name: "Express",
-          iconifyClass: "skill-icons:expressjs-dark"
-        },
-        {
-          name: "MySQL",
-          iconifyClass: "logos-mysql"
         },
       ],
     },
@@ -372,28 +452,24 @@ const projects = {
         "A social media website where users can create an account and make posts tied to their account that others can comment on.",
       languages: [
         {
+          name: "MySQL",
+          iconifyClass: "logos-mysql",
+        },
+        {
+          name: "Express",
+          iconifyClass: "skill-icons:expressjs-dark",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "vscode-icons:file-type-node",
+        },
+        {
           name: "Handlebars",
           iconifyClass: "vscode-icons:file-type-handlebars",
         },
         {
           name: "CSS3",
           iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs"
-        },
-        {
-          name: "Express",
-          iconifyClass: "skill-icons:expressjs-dark"
-        },
-        {
-          name: "MySQL",
-          iconifyClass: "logos-mysql"
         },
       ],
     },
@@ -407,24 +483,20 @@ const projects = {
         "Allows a user to create notes, read created notes, update existing notes, and delete notes.",
       languages: [
         {
+          name: "NodeJS",
+          iconifyClass: "vscode-icons:file-type-node",
+        },
+        {
+          name: "Express",
+          iconifyClass: "skill-icons:expressjs-dark",
+        },
+        {
           name: "HTML5",
           iconifyClass: "vscode-icons:file-type-html",
         },
         {
           name: "CSS3",
           iconifyClass: "vscode-icons:file-type-css",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "NodeJS",
-          iconifyClass: "logos-nodejs"
-        },
-        {
-          name: "Express",
-          iconifyClass: "skill-icons:expressjs-dark"
         },
       ],
     },
