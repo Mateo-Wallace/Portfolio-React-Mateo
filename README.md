@@ -28,6 +28,7 @@ While building this project I learned to:
 ## Table of Contents
 
 - [Deployed Site](#deployed-site)
+- [Deployment Instructions](#deployment-instructions)
 - [License](#license)
 - [Contact & Contributors](#contact)
 
@@ -38,6 +39,23 @@ While building this project I learned to:
 To see the deployed site go to [NEED TO FILL IN]()
 
 ![example of what the deployed portfolio looks like](./src/assests/images/deployed.png)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- DEPLOYMENT INSTRUCTIONS -->
+
+## Deployment Instructions
+
+From the command line use:
+
+1. `npm run build`
+1. `cd build/`
+1. `git init`
+1. `git add .`
+1. `git commit -m "production build"`
+1. `git remote add origin git@github.com:Mateo-Wallace/mateo-wallace.github.io.git`
+1. `git remote -v`
+1. `git push origin +main`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
