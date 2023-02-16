@@ -23,14 +23,19 @@ export default function ProjectCard({ repo, theme }) {
         <div
           {...styles}
           key={repo.name}
-          style={{ backgroundColor: theme.projectCard }}
+          style={{
+            backgroundColor: theme.projectCard,
+            backgroundImage: `linear-gradient(#6e1c2b, ${theme.projectCard} max(9.5rem, 15vh))`,
+          }}
           className="card"
         >
           {repo.image ? (
-            <img
-              src={require(`../../assests/images/${repo.image}`)}
-              alt={repo.alt_name}
-            />
+            <a href={repo.url} target="_blank" rel="noopener noreferrer">
+              <img
+                src={require(`../../assests/images/${repo.image}`)}
+                alt={repo.alt_name}
+              />
+            </a>
           ) : (
             ""
           )}

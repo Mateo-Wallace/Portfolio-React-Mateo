@@ -9,8 +9,10 @@
   border-radius: "5px 5px 0px 0px";
   -o-object-fit: cover;
   object-fit: cover;
+  object-position: top;
   max-height: max(10rem, 10vh);
-  mix-blend-mode: overlay;
+  mix-blend-mode: screen;
+  filter: grayscale(1);
 }
 
 .experience-card-company {

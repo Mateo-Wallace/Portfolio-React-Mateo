@@ -331,7 +331,7 @@ const projects = {
       name: "ShoCase",
       url: "https://github.com/Bfunk54/ShoCase",
       deployedSite: "https://shocase.herokuapp.com/",
-      image: "edx-bootcamps-logo.jpg",
+      image: "shocase.png",
       alt_name: "Deployed site for ShoCase",
       description:
         "A social media website where users create playlists of Anime reccomendations. Other users can like and comment on existing playlists. It has a personal profile page and a simple search bar.",
@@ -366,6 +366,8 @@ const projects = {
       name: "Blog Boy",
       url: "https://github.com/Mateo-Wallace/M14-Tech-Blog",
       deployedSite: "https://tranquil-cove-06789.herokuapp.com/",
+      image: "blog-boy.png",
+      alt_name: "Deployed site for blog boy",
       description:
         "A social media website where users can create an account and make posts tied to their account that others can comment on.",
       languages: [
@@ -399,6 +401,8 @@ const projects = {
       name: "Note Taker",
       url: "https://github.com/Mateo-Wallace/M11-Note-Taker",
       deployedSite: "https://desolate-fjord-67880.herokuapp.com/",
+      image: "note-taker.png",
+      alt_name: "Deployed site for note taker",
       description:
         "Allows a user to create notes, read created notes, update existing notes, and delete notes.",
       languages: [
@@ -428,6 +432,8 @@ const projects = {
       name: "Steamy Scoops",
       url: "https://mateo-wallace.github.io/P1-Steamy-Scoops/",
       deployedSite: "https://github.com/Mateo-Wallace/P1-Steamy-Scoops",
+      image: "steamy-scoops.png",
+      alt_name: "Deployed site for steamy scoops",
       description:
         "A news site where a user can search a video game and be presented with Steam news and Youtube news.",
       languages: [
@@ -457,6 +463,8 @@ const projects = {
       name: "Weather Boy",
       url: "https://github.com/Mateo-Wallace/M6-Weather-Dashboard",
       deployedSite: "https://mateo-wallace.github.io/M6-Weather-Dashboard/",
+      image: "weather-boy.png",
+      alt_name: "Deployed site for weather boy",
       description:
         "Weather app that allows the user to type in a city and see the weather for the next 5 days. Makes use of API in order to get weather data.",
       languages: [
@@ -482,6 +490,8 @@ const projects = {
       name: "CSS Cheat Sheet",
       url: "https://github.com/Mateo-Wallace/M2-CSS-Cheatsheet",
       deployedSite: "https://mateo-wallace.github.io/M2-CSS-Cheatsheet/",
+      image: "css-cheatsheet.png",
+      alt_name: "Deployed site for css cheat sheet",
       description:
         "One of my first projects I ever built. It uses advanced CSS in order to make a study guide esque site for CSS notes.",
       languages: [
