@@ -9,7 +9,7 @@ const settings = {
 
 //Home Page
 const greeting = {
-  profilePhoto: "mateo-ruana.jpg",
+  profilePhoto: "mateo-ruana.jpg", //doesnt work for some reason. go to Greeting.js line 56
   title: "Hello World 👋!",
   footer: "Copyright © Mateo Wallace ", // footer + currentYear + "."
   // logo_name: "Mateo-Wallace",

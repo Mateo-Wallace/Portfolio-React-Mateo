@@ -53,7 +53,7 @@ export default function Greeting(props) {
             {settings.showProfilePhoto ? (
               <img
                 className="profile-pic"
-                src={require(`../../assests/images/${greeting.profilePhoto}`)}
+                src={require(`../../assests/images/mateo-ruana.jpg`)}
                 alt="profile of a very handsome mateo wallace"
               />
             ) : (
