@@ -13,7 +13,7 @@ function App() {
       <div>
         <GlobalStyles />
         <div>
-            <Main theme={themes[theme]} setTheme={setTheme} />
+          <Main theme={themes[theme]} setTheme={setTheme} />
         </div>
       </div>
     </ThemeProvider>
