@@ -1,7 +1,7 @@
 import React from "react";
-import Header from "../../components/header/Header";
+import Header from "../../components/Header/Header";
 import Error404 from "../../containers/error404/Error404";
-import Footer from "../../components/footer/Footer";
+import Footer from "../../components/Footer/Footer";
 
 function NotFound(props) {
   return (
