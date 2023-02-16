@@ -73,6 +73,8 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 
 Mateo Wallace - [GitHub](https://github.com/Mateo-Wallace) - [Email](mailto:mateo.t.wallace@gmail.com) - [LinkedIn](https://www.linkedin.com/in/mateo-wallace/)
 
-Project Link: [mateo-wallace.github.io](https://mateo-wallace.github.io/)
+Project Repo: [github.com/Mateo-Wallace/Portfolio-React-Mateo](https://github.com/Mateo-Wallace/Portfolio-React-Mateo)
+Deployed Repo: [github.com/Mateo-Wallace/mateo-wallace.github.io](https://github.com/Mateo-Wallace/mateo-wallace.github.io)
+Deployed Site: [mateo-wallace.github.io](https://mateo-wallace.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
