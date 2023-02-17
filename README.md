@@ -38,7 +38,7 @@ While building this project I learned to:
 
 To see the deployed site go to [mateo-wallace.github.io](https://mateo-wallace.github.io/)
 
-![example of what the deployed portfolio looks like](./src/assests/images/deployed.png)
+![example of deployed portfolio](https://github.com/Mateo-Wallace/Portfolio-React-Mateo/raw/main/src/assests/images/deployed.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
