@@ -30,7 +30,7 @@ While building this project I learned to:
 - [Deployed Site](#deployed-site)
 - [Deployment Instructions](#deployment-instructions)
 - [License](#license)
-- [Contact & Contributors](#contact)
+- [Contact](#contact)
 
 <!-- DEPLOYED SITE -->
 
