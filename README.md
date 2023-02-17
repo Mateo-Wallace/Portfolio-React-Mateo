@@ -49,6 +49,7 @@ To see the deployed site go to [mateo-wallace.github.io](https://mateo-wallace.g
 From the command line use:
 
 1. `npm run build`
+1. Copy `README.md` into the build folder
 1. `cd build/`
 1. `git init`
 1. `git add .`
@@ -74,7 +75,9 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 Mateo Wallace - [GitHub](https://github.com/Mateo-Wallace) - [Email](mailto:mateo.t.wallace@gmail.com) - [LinkedIn](https://www.linkedin.com/in/mateo-wallace/)
 
 Project Repo: [github.com/Mateo-Wallace/Portfolio-React-Mateo](https://github.com/Mateo-Wallace/Portfolio-React-Mateo)
+
 Deployed Repo: [github.com/Mateo-Wallace/mateo-wallace.github.io](https://github.com/Mateo-Wallace/mateo-wallace.github.io)
+
 Deployed Site: [mateo-wallace.github.io](https://mateo-wallace.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
