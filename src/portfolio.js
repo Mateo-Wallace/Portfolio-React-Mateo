@@ -233,15 +233,15 @@ const certifications = {
     //   alt_name: "MongoDB University",
     //   color_code: "#47A048",
     // },
-    // {
-    //   title: "Postman Student Expert",
-    //   subtitle: "Postman",
-    //   logo_path: "postman.png",
-    //   certificate_link:
-    //     "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-    //   alt_name: "Postman",
-    //   color_code: "#fffbf3",
-    // },
+    {
+      title: "Postman Student Expert",
+      subtitle: "Postman",
+      logo_path: "postman.png",
+      certificate_link:
+        "https://api.badgr.io/public/assertions/vaZHGY3bQe2o-g5kVNQ7_Q?identity__email=mateo.t.wallace%40gmail.com",
+      alt_name: "Postman",
+      color_code: "#fffbf3",
+    },
   ],
 };
 

@@ -16,13 +16,15 @@ function CertificationCard(props) {
 
   return (
     <Fade bottom duration={2000} distance="20px">
-      <div className="cert-card" {...styles}>
+      <a
+        className="cert-card"
+        {...styles}
+        href={certificate.certificate_link}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <div className="content">
-          <a
-            href={certificate.certificate_link}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <div>
             <div className="content-overlay"></div>
             <div
               className="cert-header"
@@ -39,7 +41,7 @@ function CertificationCard(props) {
 										Certificate
 									</h3>
 								</div> */}
-          </a>
+          </div>
         </div>
         <div className="cert-body">
           <h2 className="cert-body-title" style={{ color: theme.text }}>
@@ -52,7 +54,7 @@ function CertificationCard(props) {
             {certificate.subtitle}
           </h3>
         </div>
-      </div>
+      </a>
     </Fade>
   );
 }
