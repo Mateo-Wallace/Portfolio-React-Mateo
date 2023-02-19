@@ -502,8 +502,8 @@ const projects = {
     },
     {
       name: "Steamy Scoops",
-      url: "https://mateo-wallace.github.io/P1-Steamy-Scoops/",
-      deployedSite: "https://github.com/Mateo-Wallace/P1-Steamy-Scoops",
+      url: "https://github.com/Mateo-Wallace/P1-Steamy-Scoops",
+      deployedSite: "https://mateo-wallace.github.io/P1-Steamy-Scoops/",
       image: "steamy-scoops.png",
       alt_name: "Deployed site for steamy scoops",
       description:
