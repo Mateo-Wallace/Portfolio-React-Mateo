@@ -328,6 +328,33 @@ const contactPageData = {
 const projects = {
   data: [
     {
+      name: "Just Tech News",
+      url: "https://github.com/Mateo-Wallace/C1-Python-Newsfeed",
+      deployedSite: "https://c1-python-newsfeed.herokuapp.com/",
+      image: "just-tech-news.png",
+      alt_name: "Deployed site for just tech news",
+      description:
+        "Reddit clone built with Python and Flask. Allows users to create posts, comment, and upvote other posts.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "MySQL",
+          iconifyClass: "logos-mysql",
+        },
+        {
+          name: "Flask",
+          iconifyClass: "skill-icons:flask-light",
+        },
+        {
+          name: "Jinja",
+          iconifyClass: "vscode-icons:file-type-jinja",
+        },
+      ],
+    },
+    {
       name: "Discord DumBot",
       url: "https://github.com/Mateo-Wallace/MP2-Discord-DumBot-V2",
       image: "dumbot.png",
