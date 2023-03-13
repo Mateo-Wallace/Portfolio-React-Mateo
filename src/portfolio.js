@@ -328,6 +328,24 @@ const contactPageData = {
 const projects = {
   data: [
     {
+      name: "Flappy Pappy",
+      url: "https://github.com/Mateo-Wallace/MP5-Unity-Flappy-Pappy",
+      image: "flappy-pappy.png",
+      alt_name: "Flappy pappy running locally on your computer",
+      description:
+        "Flappy bird clone. Allows the user to play a simple game where you jump between pipes in order to achieve a high score.",
+      languages: [
+        {
+          name: "C#",
+          iconifyClass: "logos-c-sharp",
+        },
+        {
+          name: "Unity",
+          iconifyClass: "skill-icons:unity-dark",
+        },
+      ],
+    },
+    {
       name: "Just Tech News",
       url: "https://github.com/Mateo-Wallace/C1-Python-Newsfeed",
       deployedSite: "https://c1-python-newsfeed.herokuapp.com/",
