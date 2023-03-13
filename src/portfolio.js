@@ -328,53 +328,9 @@ const contactPageData = {
 const projects = {
   data: [
     {
-      name: "Flappy Pappy",
-      url: "https://github.com/Mateo-Wallace/MP5-Unity-Flappy-Pappy",
-      image: "flappy-pappy.png",
-      alt_name: "Flappy pappy running locally on your computer",
-      description:
-        "Flappy bird clone. Allows the user to play a simple game where you jump between pipes in order to achieve a high score.",
-      languages: [
-        {
-          name: "C#",
-          iconifyClass: "logos-c-sharp",
-        },
-        {
-          name: "Unity",
-          iconifyClass: "skill-icons:unity-dark",
-        },
-      ],
-    },
-    {
-      name: "Just Tech News",
-      url: "https://github.com/Mateo-Wallace/C1-Python-Newsfeed",
-      deployedSite: "https://c1-python-newsfeed.herokuapp.com/",
-      image: "just-tech-news.png",
-      alt_name: "Deployed site for just tech news",
-      description:
-        "Reddit clone built with Python and Flask. Allows users to create posts, comment, and upvote other posts.",
-      languages: [
-        {
-          name: "Python",
-          iconifyClass: "logos-python",
-        },
-        {
-          name: "MySQL",
-          iconifyClass: "logos-mysql",
-        },
-        {
-          name: "Flask",
-          iconifyClass: "skill-icons:flask-light",
-        },
-        {
-          name: "Jinja",
-          iconifyClass: "vscode-icons:file-type-jinja",
-        },
-      ],
-    },
-    {
       name: "Discord DumBot",
       url: "https://github.com/Mateo-Wallace/MP2-Discord-DumBot-V2",
+      deployedSite: "https://mateo-wallace.github.io/MP2-Discord-DumBot-V2/",
       image: "dumbot.png",
       alt_name: "Deployed site for dumbot",
       description:
@@ -426,37 +382,6 @@ const projects = {
       ],
     },
     {
-      name: "Google Books Search",
-      url: "https://github.com/Mateo-Wallace/M21-Book-Search-Engine",
-      deployedSite: "https://m21-book-search-engine.herokuapp.com/",
-      image: "book-search.png",
-      alt_name: "Deployed site for Google Books Search",
-      description:
-        "MERN Stack search engine that allows user to create an account, search for books, and save books to a database.",
-      languages: [
-        {
-          name: "MongoDB",
-          iconifyClass: "logos-mongodb-icon",
-        },
-        {
-          name: "Express",
-          iconifyClass: "skill-icons:expressjs-dark",
-        },
-        {
-          name: "NodeJS",
-          iconifyClass: "vscode-icons:file-type-node",
-        },
-        {
-          name: "React",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "GraphQL",
-          iconifyClass: "logos-graphql",
-        },
-      ],
-    },
-    {
       name: "ShoCase",
       url: "https://github.com/Bfunk54/ShoCase",
       deployedSite: "https://shocase.herokuapp.com/",
@@ -484,6 +409,82 @@ const projects = {
         {
           name: "CSS3",
           iconifyClass: "vscode-icons:file-type-css",
+        },
+      ],
+    },
+    {
+      name: "Flappy Pappy",
+      url: "https://github.com/Mateo-Wallace/MP5-Unity-Flappy-Pappy",
+      image: "flappy-pappy.png",
+      alt_name: "Flappy pappy running locally on your computer",
+      description:
+        "Flappy bird clone. Allows the user to play a simple game where you jump between pipes in order to achieve a high score.",
+      languages: [
+        {
+          name: "C#",
+          iconifyClass: "logos-c-sharp",
+        },
+        {
+          name: "Unity",
+          iconifyClass: "skill-icons:unity-dark",
+        },
+      ],
+    },
+    {
+      name: "Just Tech News",
+      url: "https://github.com/Mateo-Wallace/C1-Python-Newsfeed",
+      deployedSite: "https://c1-python-newsfeed.herokuapp.com/",
+      image: "just-tech-news.png",
+      alt_name: "Deployed site for just tech news",
+      description:
+        "Reddit clone built with Python and Flask. Allows users to create posts, comment, and upvote other posts.",
+      languages: [
+        {
+          name: "Python",
+          iconifyClass: "logos-python",
+        },
+        {
+          name: "MySQL",
+          iconifyClass: "logos-mysql",
+        },
+        {
+          name: "Flask",
+          iconifyClass: "skill-icons:flask-light",
+        },
+        {
+          name: "Jinja",
+          iconifyClass: "vscode-icons:file-type-jinja",
+        },
+      ],
+    },
+    {
+      name: "Google Books Search",
+      url: "https://github.com/Mateo-Wallace/M21-Book-Search-Engine",
+      deployedSite: "https://m21-book-search-engine.herokuapp.com/",
+      image: "book-search.png",
+      alt_name: "Deployed site for Google Books Search",
+      description:
+        "MERN Stack search engine that allows user to create an account, search for books, and save books to a database.",
+      languages: [
+        {
+          name: "MongoDB",
+          iconifyClass: "logos-mongodb-icon",
+        },
+        {
+          name: "Express",
+          iconifyClass: "skill-icons:expressjs-dark",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "vscode-icons:file-type-node",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "GraphQL",
+          iconifyClass: "logos-graphql",
         },
       ],
     },
