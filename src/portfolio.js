@@ -332,7 +332,7 @@ const projects = {
       url: "https://github.com/Mateo-Wallace/MP2-Discord-DumBot-V2",
       deployedSite: "https://mateo-wallace.github.io/MP2-Discord-DumBot-V2/",
       image: "dumbot.png",
-      alt_name: "Deployed site for dumbot",
+      alt_name: "DumBot running on discord",
       description:
         "Open source Discord Bot. Allows users to roll dice and play music with various utility commands.",
       languages: [
@@ -347,6 +347,25 @@ const projects = {
         {
           name: "FFmpeg",
           iconifyClass: "logos-ffmpeg-icon",
+        },
+      ],
+    },
+    {
+      name: "rpg-dice-js",
+      url: "https://github.com/Mateo-Wallace/rpg-dice-js",
+      deployedSite: "https://www.npmjs.com/package/@mateo-wallace/rpg-dice-js",
+      image: "rpg-dice-js.png",
+      alt_name: "rpg-dics-js on the npm website",
+      description:
+        "Dice rolling npm package. Allows users to either import a basic roll() function or import a Dice() class where they can use custom settings.",
+      languages: [
+        {
+          name: "npm",
+          iconifyClass: "logos-npm-icon",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "vscode-icons:file-type-node",
         },
       ],
     },
