@@ -51,12 +51,16 @@ From the command line use:
 1. `npm run build`
 1. Copy `README.md` into the build folder
 1. `cd build/`
-1. `git init`
-1. `git add .`
-1. `git commit -m "production build"`
-1. `git remote add origin git@github.com:Mateo-Wallace/mateo-wallace.github.io.git`
-1. `git remote -v`
-1. `git push origin +main`
+1. 🡇
+
+```
+git init
+git add .
+git commit -m "production build"
+git remote add origin git@github.com:Mateo-Wallace/mateo-wallace.github.io.git
+git remote -v
+git push origin +main
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
