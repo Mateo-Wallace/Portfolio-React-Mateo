@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Mateo Wallace",
   subTitle: "Full Stack Developer, Instructor, Tutor. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1TcRtYCJX2CMQwZRgoJVvBp87KIdHToTG/view?usp=sharing",
+    "https://drive.google.com/file/d/1tex7x4fXRq9VfL-69_WOjLeKeWs5c14n/view?usp=sharing",
 };
 
 // Error 404, Not Found
