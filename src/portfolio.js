@@ -96,7 +96,7 @@ const skills = {
         },
         {
           skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
+          fontAwesomeClassname: "akar-icons:node-fill",
           style: {
             color: "#339933",
           },
@@ -155,6 +155,13 @@ const skills = {
       ],
       softwareSkills: [
         {
+          skillName: "Render",
+          fontAwesomeClassname: "simple-icons:render",
+          style: {
+            color: "#46E3B7",
+          },
+        },
+        {
           skillName: "Heroku",
           fontAwesomeClassname: "simple-icons:heroku",
           style: {
@@ -162,10 +169,10 @@ const skills = {
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "Netlify",
+          fontAwesomeClassname: "simple-icons:netlify",
           style: {
-            color: "#47A248",
+            color: "#00C7B7",
           },
         },
         {
