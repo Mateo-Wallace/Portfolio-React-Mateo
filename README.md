@@ -46,6 +46,8 @@ To see the deployed site go to [mateo-wallace.github.io](https://mateo-wallace.g
 
 ## Deployment Instructions
 
+Make sure that you are on `"node": "16.x"`
+
 From the command line use:
 
 1. `npm run build`
