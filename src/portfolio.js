@@ -336,8 +336,8 @@ const projects = {
   data: [
     {
       name: "Discord DumBot",
-      url: "https://github.com/Mateo-Wallace/MP2-Discord-DumBot-V2",
-      deployedSite: "https://mateo-wallace.github.io/MP2-Discord-DumBot-V2/",
+      url: "https://github.com/Mateo-Wallace/Discord-DumBot",
+      deployedSite: "https://mateo-wallace.github.io/Discord-DumBot/",
       image: "dumbot.png",
       alt_name: "DumBot running on discord",
       description:
@@ -435,6 +435,37 @@ const projects = {
         {
           name: "CSS3",
           iconifyClass: "vscode-icons:file-type-css",
+        },
+      ],
+    },
+    {
+      name: "ScreenSmart",
+      url: "https://github.com/MBPKFC/hack-for-humanity",
+      deployedSite: "https://hack-for-humanity.vercel.app/",
+      image: "us-postal.png",
+      alt_name: "Deployed site for ScreenSmart",
+      description:
+        "MERN Stack example site for a postal company. Allows users to track packages, make orders, email the store, and save all of that information to their profile for future reference.",
+      languages: [
+        {
+          name: "MongoDB",
+          iconifyClass: "logos-mongodb-icon",
+        },
+        {
+          name: "Express",
+          iconifyClass: "skill-icons:expressjs-dark",
+        },
+        {
+          name: "NodeJS",
+          iconifyClass: "vscode-icons:file-type-node",
+        },
+        {
+          name: "Next.js",
+          iconifyClass: "logos-next",
+        },
+        {
+          name: "Rest",
+          iconifyClass: "logos-rest",
         },
       ],
     },
